@@ -10,6 +10,8 @@ Backend service untuk aplikasi Finance Tracker Offline-First, dibangun dengan Fa
   - `POST /api/v1/sync/resolve-conflict`: Resolusi konflik eksplisit (`use_client` atau `use_server`).
 - **Database Migrations**: Alembic migrasi otomatis dijalankan saat kontainer startup.
 
+Untuk penjelasan arsitektur detail dan fungsi setiap folder, lihat dokumen [Struktur & Arsitektur Backend](../docs/BACKEND_STRUCTURE.md).
+
 ## 📦 Menjalankan Layanan (Docker Compose)
 
 ### Menjalankan Semua Service
